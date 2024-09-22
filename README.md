@@ -9,7 +9,9 @@ This app allows users to upload a paragraph of text, and it generates a word clo
 
 ## How to Run the App:
 I have already uploaded this to my dockerhub. So, if you want to try the app, you can pull the Docker image and run it locally with the following commands:
+```bash
   docker pull miffyeewang/nlp_wordcloud_app:latest
   docker run -d -p 8501:8501 miffyeewang/nlp_wordcloud_app:latest
+```
 You will have the port to open my app.
 
